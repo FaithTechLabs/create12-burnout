@@ -1,0 +1,10 @@
+- id: 1
+  category: 'emotional'
+  text: 'I feel peaceful & calm most of the time.'
+- id: 2
+  category: 'physical'
+  text: 'I generally feel healthy & well.'
+- id: 3
+  category: 'physical'
+  text: 'I sleep well & feel rested upon waking'
+  
