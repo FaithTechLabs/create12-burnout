@@ -1,0 +1,20 @@
+<h1>Create Account</h1>
+
+<%= semantic_form_for @user do |f| %>
+  <%= f.inputs "Account Information" do %>
+    <%= f.input :email, as: :email %>
+    <%= f.input :first_name %>
+    <%= f.input :last_name %>
+    <%= f.input :accountability_email, as: :email %>
+    <%= f.input :is_married, as: :boolean, label: "Married?" %>
+    <%= f.input :has_children, as: :boolean, label: "Has Children?" %>
+    <%= f.input :birthday, as: :date_picker, label: "Birthday" %>
+    <%= f.input :church_size, as: :number, label: "Church Size" %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, label: "Create Account" %>
+    <%= f.action :cancel, as: :link, label: "Cancel", url: users_path %>
+  <% end %>
+<% end %>
+
