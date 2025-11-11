@@ -1,11 +1,37 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-answer_one:
+answered_one:
   question_id: 1
   survey: answered
   answer: 1
 
-answer_two:
+answered_two:
   question_id: 2
   survey: answered
   answer: 2
+
+answered_three:
+  question_id: 3
+  survey: answered
+  answer: 3
+
+answered_four:
+  question_id: 4
+  survey: answered
+  answer: 4
+
+unanswered_one:
+  question_id: 1
+  survey: unanswered
+
+unanswered_two:
+  question_id: 2
+  survey: unanswered
+
+unanswered_three:
+  question_id: 3
+  survey: unanswered
+
+unanswered_four:
+  question_id: 4
+  survey: unanswered

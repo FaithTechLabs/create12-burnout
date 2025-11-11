@@ -7,4 +7,12 @@
 - id: 3
   category: 'physical'
   text: 'I sleep well & feel rested upon waking'
-  
+- id: 4
+  category: 'emotional'
+  text: 'I do not feel emotionally run-down or drained.'
+- id: 5
+  category: 'physical'
+  text: 'I do not experience stress-related dreams or nightmares.'
+- id: 6
+  category: 'emotional'
+  text: 'I have fun & engage in restorative activities daily.'

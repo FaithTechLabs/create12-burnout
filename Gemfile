@@ -42,7 +42,7 @@ gem "image_processing", "~> 1.2"
 
 gem "frozen_record"
 
-gem 'formtastic'
+gem "formtastic"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
