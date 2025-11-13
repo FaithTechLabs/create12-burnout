@@ -13,4 +13,12 @@ class SurveyGenerator
 
     survey
   end
+  def self.create_intake_survey_for_user(user)
+    survey = Survey.create!(user: user)
+    # TODO: Will need to decide once we get 'finalized' questions which ones we want to be on the intake survey
+    # For now, I'm just gonna grab all of them
+    Question.each do |question|
+      Answer.create!(question_id: question.id, survey: survey)
+    end
+  end
 end
