@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_11_13_181524) do
+ActiveRecord::Schema[8.1].define(version: 2025_11_14_004405) do
   create_table "answers", force: :cascade do |t|
     t.integer "answer"
     t.datetime "created_at", null: false
@@ -22,9 +22,11 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_13_181524) do
   create_table "surveys", force: :cascade do |t|
     t.datetime "answered_at"
     t.datetime "created_at", null: false
+    t.string "hash_id"
     t.datetime "last_notified_at"
     t.datetime "updated_at", null: false
     t.integer "user_id"
+    t.index ["hash_id"], name: "index_surveys_on_hash_id", unique: true
   end
 
   create_table "users", force: :cascade do |t|

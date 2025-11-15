@@ -49,4 +49,26 @@ class SurveyTest < ActiveSupport::TestCase
       assert_equal [ survey_needing_notification ], surveys_to_notify
     end
   end
+
+  test "sets hash_id before creation" do
+    survey = Survey.new(user: users(:bob))
+    assert_nil survey.hash_id
+
+    survey.save!
+    assert_not_nil survey.hash_id
+    assert_equal 20, survey.hash_id.length
+  end
+
+  test "hash_id has unique constraint" do
+    survey = Survey.new(user: users(:bob))
+    survey.save!
+
+    another_survey = Survey.new(user: users(:bob))
+    another_survey.save!
+
+    refute_equal survey.hash_id, another_survey.hash_id
+    assert_raises ActiveRecord::RecordNotUnique do
+      another_survey.update_column(:hash_id, survey.hash_id)
+    end
+  end
 end
