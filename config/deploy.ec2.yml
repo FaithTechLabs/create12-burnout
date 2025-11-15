@@ -89,8 +89,8 @@ builder:
 # Use a different ssh user than root
 ssh:
   user: ec2-user
-  keys: ["~/.ssh/tim_c.pem"]
-  keys_only: true
+  # keys: ["~/.ssh/tim_c.pem"]
+  # keys_only: true
 # Use accessory services (secrets come from .kamal/secrets).
 # accessories:
 #   db:
