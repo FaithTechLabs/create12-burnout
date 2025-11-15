@@ -30,6 +30,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Write master.key file
+        run: echo "$RAILS_MASTER_KEY" > config/master.key
+        env:
+          RAILS_MASTER_KEY: ${{ secrets.RAILS_PRODUCTION_MASTER_KEY }}
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
