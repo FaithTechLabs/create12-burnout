@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "/questions", to: "survey#questions"
   # get "/new", to: "users#new"
 
-  get "/survey/:hash_id", to: "survey#show"
+  get "/survey/:hash_id", to: "survey#show", as: :survey
 
   Rails.application.routes.draw do
     resources :users, only: [ :new, :create ]  # Makes only `new` and `create` actions available for users
