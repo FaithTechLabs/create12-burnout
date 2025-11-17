@@ -2,7 +2,9 @@
 
 unanswered:
   user: bob
+  hash_id: somehashid123
 
 answered:
   user: bob
+  hash_id: anotherhashid456
   answered_at: <%= 1.day.ago %>

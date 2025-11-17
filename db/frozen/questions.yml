@@ -1,240 +1,240 @@
 - id:	1	
-  category: 'Physical'  
-  sub_category: 'Sleep and Rest'  
-  text: 'How often do you find it difficult to fall asleep or stay asleep (insomnia)?'																							
+  category: Physical
+  sub_category: Sleep and Rest
+  text: How often do you find it difficult to fall asleep or stay asleep (insomnia)?
 - id:	2	
-  category: 'Physical'  
-  sub_category: 'Sleep and Rest'  
-  text: 'Do you wake up feeling unrested even after a full night\'s sleep?'																							
+  category: Physical
+  sub_category: Sleep and Rest
+  text: Do you wake up feeling unrested even after a full night's sleep?
 - id:	3	
-  category: 'Physical'  
-  sub_category: 'Sleep and Rest'  
-  text: 'Have you noticed a significant change (increase or decrease) in the amount of sleep you typically need?'																							
+  category: Physical
+  sub_category: Sleep and Rest
+  text: Have you noticed a significant change (increase or decrease) in the amount of sleep you typically need?
 - id:	4	
-  category: 'Physical'
-  sub_category: 'Sleep and Rest'  
-  text: 'Do you frequently feel tired or fatigued during the day?'																							
+  category: Physical
+  sub_category: Sleep and Rest
+  text: Do you frequently feel tired or fatigued during the day?
 - id:	5	
-  category: 'Physical' 
-  sub_category: 'General'  
-  text: 'In the past month, how often have you experienced headaches or migraines?'																							
+  category: Physical
+  sub_category: General
+  text: In the past month, how often have you experienced headaches or migraines?
 - id:	6	
-  category: 'Physical'
-  sub_category: 'General'  
-  text: 'How frequently do you experience muscle tension, aches, or joint pain?'																							
+  category: Physical
+  sub_category: General
+  text: How frequently do you experience muscle tension, aches, or joint pain?
 - id:	7	
-  category: 'Physical' 
-  sub_category: 'General'  
-  text: 'Have you noticed an increase in stomach issues (e.g., indigestion, nausea, or changes in appetite/weight)?'																							
+  category: Physical
+  sub_category: General
+  text: Have you noticed an increase in stomach issues (e.g., indigestion, nausea, or changes in appetite/weight)?
 - id:	8	
-  category: 'Physical' 
-  sub_category: 'General'  
-  text: 'How often do you feel like you are catching colds or getting sick (indicating a weakened immune system)?'																							
+  category: Physical
+  sub_category: General
+  text: How often do you feel like you are catching colds or getting sick (indicating a weakened immune system)?
 - id:	9	
-  category: 'Physical' 
-  sub_category: 'Energy and Vitality'  
-  text: 'How often do you feel a persistent lack of physical energy (exhaustion)?'																							
+  category: Physical
+  sub_category: Energy and Vitality
+  text: How often do you feel a persistent lack of physical energy (exhaustion)?
 - id:	10	
-  category: 'Physical'
-  sub_category: 'Energy and Vitality'  
-  text: 'To what extent has your interest in physical activities or exercise decreased?'																							
+  category: Physical
+  sub_category: Energy and Vitality
+  text: To what extent has your interest in physical activities or exercise decreased?
 - id:	11	
-  category: 'Physical'
-  sub_category: 'Energy and Vitality' 
-  text: 'Do you often feel physically drained after a typical workday?'																							
+  category: Physical
+  sub_category: Energy and Vitality
+  text: Do you often feel physically drained after a typical workday?
 - id:	12	
-  category: 'Physical'
-  sub_category: 'Existing Conditions' 
-  text: 'Have any existing chronic health conditions (e.g., high blood pressure, diabetes) worsened recently?'																							
+  category: Physical
+  sub_category: Existing Conditions
+  text: Have any existing chronic health conditions (e.g., high blood pressure, diabetes) worsened recently?
 - id:	13	
-  category: 'Emotional' 
-  sub_category: 'Well Being' 
-  text: 'How often do you feel overwhelmed by your responsibilities?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: How often do you feel overwhelmed by your responsibilities?
 - id:	14	
-  category: 'Emotional' 
-  sub_category: 'Well Being' 
-  text: 'Do you find yourself feeling irritable, impatient, or easily frustrated with colleagues, family, or friends?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: Do you find yourself feeling irritable, impatient, or easily frustrated with colleagues, family, or friends?
 - id:	15	
-  category: 'Emotional' 
-  sub_category: 'Well Being'
-  text: 'How frequently do you feel cynical or detached from your work and people around you?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: How frequently do you feel cynical or detached from your work and people around you?
 - id:	16	
-  category: 'Emotional' 
-  sub_category: 'Well Being'
-  text: 'Do you struggle to maintain a positive outlook, or feel a pervasive sense of hopelessness?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: Do you struggle to maintain a positive outlook, or feel a pervasive sense of hopelessness?
 - id:	17	
-  category: 'Emotional' 
-  sub_category: 'Well Being'
-  text: 'Have you noticed a significant decrease in your enjoyment of activities you used to love?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: Have you noticed a significant decrease in your enjoyment of activities you used to love?
 - id:	18	
-  category: 'Emotional' 
-  sub_category: 'Well Being'
-  text:'How often do you feel like you have to force yourself to feel emotions that others expect of you (emotional dissonance)?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: How often do you feel like you have to force yourself to feel emotions that others expect of you (emotional dissonance)?
 - id:	19	
-  category: 'Emotional' 
-  sub_category: 'Well Being' 
-  text: 'In the past month, how often have you felt like you are at your "wits\' end"?'																							
+  category: Emotional
+  sub_category: Well Being
+  text: In the past month, how often have you felt like you are at your "wits' end"?
 - id:	20	
-  category: 'Mental' 
-  sub_category: 'Cognitive Function and Focus' 
-  text: 'How often do you find it difficult to concentrate on tasks?'																							
+  category: Mental
+  sub_category: Cognitive Function and Focus
+  text: How often do you find it difficult to concentrate on tasks?
 - id:	21	
-  category: 'Mental' 
-  sub_category: 'Cognitive Function and Focus' 
-  text: 'Do you frequently feel like your mind is "foggy" or that your thoughts are racing?'																							
+  category: Mental
+  sub_category: Cognitive Function and Focus
+  text: Do you frequently feel like your mind is "foggy" or that your thoughts are racing?
 - id:	22	
-  category: 'Mental' 
-  sub_category: 'Cognitive Function and Focus' 
-  text: 'How often do you forget things (e.g., appointments, details, or steps in a process)?'																							
+  category: Mental
+  sub_category: Cognitive Function and Focus
+  text: How often do you forget things (e.g., appointments, details, or steps in a process)?
 - id:	23	
-  category: 'Mental' 
-  sub_category: 'Cognitive Function and Focus' 
-  text: 'Do you struggle with decision-making?'																							
+  category: Mental
+  sub_category: Cognitive Function and Focus
+  text: Do you struggle with decision-making?
 - id:	24	
-  category: 'Mental'
-  sub_category: 'Cognitive Function and Focus' 
-  text: 'How often do you find yourself easily distracted while working or doing other activities?'																							
+  category: Mental
+  sub_category: Cognitive Function and Focus
+  text: How often do you find yourself easily distracted while working or doing other activities?
 - id:	25	
-  category: 'Mental'
-  sub_category: 'Emotional Regulation and Resilience' 
-  text: 'How well do you feel you are able to manage and control your emotions (e.g., anger, sadness, anxiety)?'																							
+  category: Mental
+  sub_category: Emotional Regulation and Resilience
+  text: How well do you feel you are able to manage and control your emotions (e.g., anger, sadness, anxiety)?
 - id:	26	
-  category: 'Mental' 
-  sub_category: 'Emotional Regulation and Resilience' 
-  text: 'Do small problems or setbacks often feel like major crises?'																							
+  category: Mental
+  sub_category: Emotional Regulation and Resilience
+  text: Do small problems or setbacks often feel like major crises?
 - id:	27
-  category: 'Mental' 
-  sub_category: 'Emotional Regulation and Resilience' 
-  text: 'How often do you find yourself engaging in negative self-talk or criticizing yourself harshly?'																							
+  category: Mental
+  sub_category: Emotional Regulation and Resilience
+  text: How often do you find yourself engaging in negative self-talk or criticizing yourself harshly?
 - id:	28	
-  category: 'Mental'
-  sub_category: 'Emotional Regulation and Resilience' 
-  text: 'Do you frequently feel anxious or worried for no specific reason?'																							
+  category: Mental
+  sub_category: Emotional Regulation and Resilience
+  text: Do you frequently feel anxious or worried for no specific reason?
 - id:	29	
-  category: 'Mental' 
-  sub_category: 'Emotional Regulation and Resilience' 
-  text: 'How often do you feel a sense of inner emptiness or numbness?'																							
+  category: Mental
+  sub_category: Emotional Regulation and Resilience
+  text: How often do you feel a sense of inner emptiness or numbness?
 - id:	30	
-  category: 'Mental' 
-  sub_category: 'Social and Isolation' 
-  text: 'How often do you withdraw socially or avoid interacting with others?'																							
+  category: Mental
+  sub_category: Social and Isolation
+  text: How often do you withdraw socially or avoid interacting with others?
 - id:	31	
-  category: 'Mental' 
-  sub_category: 'Social and Isolation' 
-  text: 'Do you feel isolated or lonely, even when surrounded by people?'																							
+  category: Mental
+  sub_category: Social and Isolation
+  text: Do you feel isolated or lonely, even when surrounded by people?
 - id:	32
-  category: 'Mental' 
-  sub_category: 'Social and Isolation' 
-  text: 'How often do you feel like you are just going through the motions without truly connecting with people or your environment?'																							
+  category: Mental
+  sub_category: Social and Isolation
+  text: How often do you feel like you are just going through the motions without truly connecting with people or your environment?
 - id:	33	
-  category: 'Relational'  
-  sub_category: 'Intimate/Family ' 
-  text: 'How often do you feel irritable or easily annoyed by your partner or family members?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: How often do you feel irritable or easily annoyed by your partner or family members?
 - id:	34	
-  category: 'Relational' 
-  sub_category: 'Intimate/Family ' 
-  text: 'Do you find yourself emotionally withdrawing or isolating from your loved ones?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: Do you find yourself emotionally withdrawing or isolating from your loved ones?
 - id:	35	
-  category: 'Relational'  
-  sub_category: 'Intimate/Family ' 
-  text: 'How frequently do you feel like you have nothing left to give emotionally to your partner or family at the end of the day?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: How frequently do you feel like you have nothing left to give emotionally to your partner or family at the end of the day?
 - id:	36
-  category: 'Relational' 
-  sub_category: 'Intimate/Family ' 
-  text: 'Have you noticed a significant decrease in shared enjoyable activities with loved ones?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: Have you noticed a significant decrease in shared enjoyable activities with loved ones?
 - id:	37	
-  category: 'Relational' 
-  sub_category: 'Intimate/Family ' 
-  text: 'How often do you feel misunderstood or unappreciated in your home life?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: How often do you feel misunderstood or unappreciated in your home life?
 - id:	38
-  category: 'Relational' 
-  sub_category: 'Intimate/Family ' 
-  text: 'Do you frequently feel too tired to talk or connect meaningfully with your partner or family?'																							
+  category: Relational
+  sub_category: Intimate/Family 
+  text: Do you frequently feel too tired to talk or connect meaningfully with your partner or family?
 - id:	39	
-  category: 'Relational' 
-  sub_category: 'Professional/Work ' 
-  text: 'How often do you feel cynical or impatient when dealing with people?'																							
+  category: Relational
+  sub_category: Professional/Work 
+  text: How often do you feel cynical or impatient when dealing with people?
 - id:	40	
-  category: 'Relational' 
-  sub_category: 'Professional/Work ' 
-  text: 'Do you find yourself avoiding interactions with colleagues or supervisors?'																							
+  category: Relational
+  sub_category: Professional/Work 
+  text: Do you find yourself avoiding interactions with colleagues or supervisors?
 - id:	41	
-  category: 'Relational' 
-  sub_category: 'Professional/Work ' 
-  text: 'How often do you feel like you treat the people you serve (clients/patients/students) more like objects or problems than like individuals?'																							
+  category: Relational
+  sub_category: Professional/Work 
+  text: How often do you feel like you treat the people you serve (clients/patients/students) more like objects or problems than like individuals?
 - id:	42	
-  category: 'Relational'  
-  sub_category: 'Professional/Work ' 
-  text: 'To what extent do you feel supported by your colleagues or team members?'																							
+  category: Relational
+  sub_category: Professional/Work 
+  text: To what extent do you feel supported by your colleagues or team members?
 - id:	43	
-  category: 'Relational' 
-  sub_category: 'Professional/Work ' 
-  text: 'Do conflicts or disagreements with co-workers feel more intense or frequent than they used to?'																							
+  category: Relational
+  sub_category: Professional/Work 
+  text: Do conflicts or disagreements with co-workers feel more intense or frequent than they used to?
 - id:	44	
-  category: 'Spiritual' 
-  sub_category: 'Relationahip with God'
-  text: 'How often do you feel a vital and personal connection with God, separate from your ministry duties?'																							
+  category: Spiritual
+  sub_category: Relationahip with God
+  text: How often do you feel a vital and personal connection with God, separate from your ministry duties?
 - id:	45	
-  category: 'Spiritual' 
-  sub_category: 'Relationahip with God'
-  text: 'Do you feel like your personal prayer and devotional time is a source of renewal, or does it feel like another task?'																							
+  category: Spiritual
+  sub_category: Relationahip with God
+  text: Do you feel like your personal prayer and devotional time is a source of renewal, or does it feel like another task?
 - id:	46
-  category: 'Spiritual' 
-  sub_category: 'Relationahip with God'
-  text: 'How frequently do you feel like you are just going through the motions during sermons, ceremonies, or leading worship?'																							
+  category: Spiritual
+  sub_category: Relationahip with God
+  text: How frequently do you feel like you are just going through the motions during sermons, ceremonies, or leading worship?
 - id:	47	
-  category: 'Spiritual' 
-  sub_category: 'Relationahip with God'
-  text: 'Do you feel that God\'s grace and love are conditional on your ministry accomplishments or performance?'																							
+  category: Spiritual
+  sub_category: Relationahip with God
+  text: Do you feel that God's grace and love are conditional on your ministry accomplishments or performance?
 - id:	48	
-  category: 'Spiritual'
-  sub_category: 'Relationahip with God' 
-  text: 'Have you noticed a decrease in your spiritual passion or zeal over the past year?'																							
+  category: Spiritual
+  sub_category: Relationahip with God
+  text: Have you noticed a decrease in your spiritual passion or zeal over the past year?
 - id:	49	
-  category: 'Spiritual'
-  sub_category: 'Existential Well-Being'
-  text: 'To what extent do you still feel a clear sense of divine calling to your current role?'																							
+  category: Spiritual
+  sub_category: Existential Well-Being
+  text: To what extent do you still feel a clear sense of divine calling to your current role?
 - id:	50	
-  category: 'Spiritual'
-  sub_category: 'Existential Well-Being'
-  text: 'How often do you doubt that your ministry truly makes a difference in the lives of others?'																							
+  category: Spiritual
+  sub_category: Existential Well-Being
+  text: How often do you doubt that your ministry truly makes a difference in the lives of others?
 - id:	51	
-  category: 'Spiritual' 
-  sub_category: 'Existential Well-Being' 
-  text: 'Do you find that your sense of worth is tied directly to the attendance, budget, or visible success of the church?'																							
+  category: Spiritual
+  sub_category: Existential Well-Being
+  text: Do you find that your sense of worth is tied directly to the attendance, budget, or visible success of the church?
 - id:	52
-  category: 'Spiritual' 
-  sub_category: 'Existential Well-Being' 
-  text: 'How often do you feel that your personal values and spiritual beliefs are in conflict with the demands of your job?'																							
+  category: Spiritual
+  sub_category: Existential Well-Being
+  text: How often do you feel that your personal values and spiritual beliefs are in conflict with the demands of your job?
 - id:	53
-  category: 'Spiritual' 
-  sub_category: 'Existential Well-Being' 
-  text: 'Do you feel a deep sense of meaning and direction in your life outside of the church walls?'																							
+  category: Spiritual
+  sub_category: Existential Well-Being
+  text: Do you feel a deep sense of meaning and direction in your life outside of the church walls?
 - id:	54	
-  category: 'Spiritual' 
-  sub_category: 'Boundaries' 
-  text: 'How often do you feel that your personal spiritual "tank" is empty before a Sunday service or major church event?'																							
+  category: Spiritual
+  sub_category: Boundaries
+  text: How often do you feel that your personal spiritual "tank" is empty before a Sunday service or major church event?
 - id:	55	
-  category: 'Spiritual' 
-  sub_category: 'Boundaries' 
-  text: 'To what extent do you feel you have adequate spiritual mentors or confidantes with whom you can be completely honest about your faith struggles?'																							
+  category: Spiritual
+  sub_category: Boundaries
+  text: To what extent do you feel you have adequate spiritual mentors or confidantes with whom you can be completely honest about your faith struggles?
 - id:	56	
-  category: 'Spiritual' 
-  sub_category: 'Boundaries' 
-  text: 'Do you consistently feel guilty when taking time off for personal rest or spiritual retreat?'																							
+  category: Spiritual
+  sub_category: Boundaries
+  text: Do you consistently feel guilty when taking time off for personal rest or spiritual retreat?
 - id:	57	
-  category: 'Professional' 
-  sub_category: 'Work'
-  text: 'How often do you feel that your work efforts are not recognized or appreciated?'																							
+  category: Professional
+  sub_category: Work
+  text: How often do you feel that your work efforts are not recognized or appreciated?
 - id:	58	
-  category: 'Professional' 
-  sub_category: 'Work' 
-  text: 'To what extent do you feel like you are failing to achieve worthwhile things at work?'																							
+  category: Professional
+  sub_category: Work
+  text: To what extent do you feel like you are failing to achieve worthwhile things at work?
 - id:	59
-  category: 'Professional' 
-  sub_category: 'Work' 
-  text: 'How often do you feel a sense of dread when thinking about starting your workday?'																							
+  category: Professional
+  sub_category: Work
+  text: How often do you feel a sense of dread when thinking about starting your workday?
 - id:	60	
-  category: 'Professional'  
-  sub_category: 'Work' 
-  text: 'Have you noticed a drop in your overall job performance or productivity?'
+  category: Professional
+  sub_category: Work
+  text: Have you noticed a drop in your overall job performance or productivity?

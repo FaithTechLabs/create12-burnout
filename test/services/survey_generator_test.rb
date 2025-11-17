@@ -14,8 +14,9 @@ class SurveyGeneratorTest < ActiveSupport::TestCase
 
     question_category_count = Question::CATEGORIES.keys.index_with(0)
     survey.answers.each do |answer|
-      assert question_category_count.key?(answer.question.category.to_sym)
-      question_category_count[answer.question.category.to_sym] += 1
+      category = answer.question.category.downcase.to_sym
+      assert question_category_count.key?(category)
+      question_category_count[category] += 1
     end
 
     expected_count_from_each_category = 2
