@@ -1,0 +1,12 @@
+<%# app/views/survey/_survey_header.html.erb %>
+<header class="survey-header">
+  <div class="logo-container">
+    <%= link_to root_path do %>
+      <div class="header-logo-container">
+        <%= inline_svg_tag("ppc_logo.svg") %>
+      </div>
+      <%#= image_tag "ppc_logo.svg", alt: "Pastoral Pulse Check Logo", class: "header-logo" %>
+      <span class="app-name">Pastoral Pulse Check</span>
+    <% end %>
+  </div>
+</header>

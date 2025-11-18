@@ -8,3 +8,50 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Funnel+Display:wght@300..800&family=Poiret+One&display=swap');
+
+:root {
+	--main-color: #160C28;
+	--secondary-color: #E9B872;
+	--background-color: #EEEEFF;
+	--fill-color-1: #7F7CAF;
+	--fill_color-2: #9FB4C7;
+
+	--font-stiff: 'Poiret One', sans-serif;
+	--font-happy: 'Dongle', sans-serif;
+	--font-tech: 'Funnel Display', sans-serif;
+
+}
+
+body {
+	margin: 0px;
+	background-color: var(--background-color);
+}
+
+.survey-header {
+	background-color: var(--main-color);
+}
+
+.logo-container a {
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+}
+
+.app-name {
+	color: var(--background-color);
+	font-family: var(--font-stiff);
+	font-size: 3rem;
+	font-weight: bold;
+
+}
+
+.header-logo-container svg {
+	padding: 15px 25px;
+	width: auto;
+	height: 3rem;
+}
+
+.header-logo-container path {
+	fill: var(--background-color);
+}
