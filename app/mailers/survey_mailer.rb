@@ -6,8 +6,10 @@ class SurveyMailer < ApplicationMailer
   end
 
   def survey_complete
-    survey = params[:survey]
     # find the survey answer with the lowest answer score 
+    survey = params[:survey]
+    lowest_question_id = survey.answer.order(:answer).first.question_id
+    @verse = Question.where(id: lowest_question_id).first.bible_verse
     # -> use the bible verse from the question
     mail(to: survey.user.email, cc: survey.user.accountability_email, subject: "Thank you")
   end

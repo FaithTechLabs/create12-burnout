@@ -9,10 +9,12 @@ Rails.application.routes.draw do
   # get "/new", to: "users#new"
 
   get "/survey/:hash_id", to: "survey#show", as: :survey
+  patch 'survey/:id', to: 'survey#update'
 
   Rails.application.routes.draw do
     resources :users, only: [ :new, :create ]  # Makes only `new` and `create` actions available for users
-    resources :surveys, only: [ :update ]
+    #resources :surveys, only: [ :update ]
+    #resources :surveys, param: :hash_id, only: [:show, :update]
   end
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
