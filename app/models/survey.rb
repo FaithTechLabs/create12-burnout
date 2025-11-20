@@ -1,6 +1,7 @@
 class Survey < ApplicationRecord
   belongs_to :user
-  has_many :answers, dependent: :destroy
+  has_many :answer, dependent: :destroy
+  accepts_nested_attributes_for :answer
 
   before_create :set_random_hash_id
 

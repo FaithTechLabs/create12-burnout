@@ -12,6 +12,7 @@ Rails.application.routes.draw do
 
   Rails.application.routes.draw do
     resources :users, only: [ :new, :create ]  # Makes only `new` and `create` actions available for users
+    resources :surveys, only: [ :update ]
   end
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
