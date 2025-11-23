@@ -1,60 +1,24 @@
 <%= render "survey_header" %>
-<%= semantic_form_for @survey do |f| %>
-  <%= f.inputs "Survey Questions #{@survey.created_at.strftime("%b %d, %Y")}" do %>
-  <%= f.fields_for :answer do |answer_fields| %>
-  <%# @survey.answers do |answer_fields| %>
-
-    <%# puts "--DEBUG-- Here: #{answer_fields.object.survey_id}" %>
-      <%# We need the Question text for the prompt. %>
-      <%# Since we are looping over an Answer object, we can access its associated question. %>
-      <%# question = Question.where(id: answer_fields.object.question_id) %>
-      <% question = @questions_by_id[answer_fields.object.question_id] %>
-
-      <div class="question-selection-group">
-      <%# 2. Use a custom input block to display the Question text %>
-      <%= answer_fields.input :answer, 
-          as: :radio, 
-          label: question.text,
-          required: true,
-          collection: [
-            ['&nbsp;'.html_safe, 1], 
-            ['&nbsp;'.html_safe, 2], 
-            ['&nbsp;'.html_safe, 3], 
-            ['&nbsp;'.html_safe, 4], 
-            ['&nbsp;'.html_safe, 5]
-          ],
-          input_html: { 
-            class: 'survey-radio-group' 
-          }
-      %>
-      <div class="under-radio">
-        <div>Strongly Disagree</div>
-        <div>Strongly Agree</div>
+<%= form_with model: @survey do |f| %>
+  <%= "Survey Questions #{@survey.created_at.strftime("%b %d, %Y")}" %>
+  <%= f.fields_for :answers do |answer_f| %>
+    <div class="question-selection-group">
+      <%= answer_f.hidden_field :id %>
+      <%= answer_f.label :answer, answer_f.object.question_text %>
+      <div class="survey-radio-group">
+        <%= answer_f.collection_radio_buttons :answer,
+            [
+              ["Strongly Disagree", 1], 
+              ['&nbsp;'.html_safe, 2], 
+              ['&nbsp;'.html_safe, 3], 
+              ['&nbsp;'.html_safe, 4], 
+              ["Strongly Agree", 5]
+            ],
+            :last,
+            :first
+          %>
       </div>
-      
-      <%# Hidden fields are CRITICAL for nested forms. 
-      This ensures the existing Answer record is updated, not replaced. %>
-      <%= answer_fields.input :id, as: :hidden %>
-      <%= answer_fields.input :question_id, as: :hidden %>
-
-      </div>
-      <%#hr class="question-separator"%>
-
-    <% end %> <%# closes fields_for :answers %>
-
-   <%# closes f.inputs %>
- <% end %>
-
-  <%= f.actions do %>
-    <%= f.action :submit, :as => :button, :label => "Submit Survey" %>
+    </div>
   <% end %>
+  <%= f.submit "Submit Survey" %>
 <% end %>
-
-<!--
-# > bin/jobs
-# > rails s
-# > rails console
-# >> u = User.create(first_name: "Bob", last_name: "Smith")
-# >> SurveyGenerator.generate_for_user(u)
-# >> SendEmailNotificationsJob.perform_now
--->

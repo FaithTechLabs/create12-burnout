@@ -7,7 +7,7 @@ class SurveyGenerator
     Question::CATEGORIES.each do |_, category|
       questions = Question.where(category: category).sample(2)
       questions.each do |question|
-        Answer.create!(question_id: question.id, survey: survey)
+        Answer.create!(question_id: question.id, survey: survey, question_text: question.text)
       end
     end
 
