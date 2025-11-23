@@ -32,7 +32,7 @@ class SurveyController < ApplicationController
         puts "--DEBUG-- Params worked?" 
         # 3. SUCCESS: Fire the Mailer
         # Use deliver_later to send the email in the background, keeping the app responsive.
-        SurveyMailer.survey_complete(@survey).deliver_later
+        SurveyMailer.with(survey: @survey).survey_complete.deliver_later
         
         # 4. Redirect the user
         redirect_to survey_path(@survey), notice: "Survey successfully submitted. A confirmation email is being sent shortly."
