@@ -1,6 +1,6 @@
 <%= render "survey_header" %>
 <%= form_with model: @survey do |f| %>
-  <%= "Survey Questions #{@survey.created_at.strftime("%b %d, %Y")}" %>
+  <div class="survey-date"><%= "Survey Questions #{@survey.created_at.strftime("%b %d, %Y")}" %></div>
   <%= f.fields_for :answers do |answer_f| %>
     <div class="question-selection-group">
       <%= answer_f.hidden_field :id %>
@@ -8,17 +8,23 @@
       <div class="survey-radio-group">
         <%= answer_f.collection_radio_buttons :answer,
             [
-              ["Strongly Disagree", 1], 
+              ['&nbsp;'.html_safe, 1], 
               ['&nbsp;'.html_safe, 2], 
               ['&nbsp;'.html_safe, 3], 
               ['&nbsp;'.html_safe, 4], 
-              ["Strongly Agree", 5]
+              ['&nbsp;'.html_safe, 5]
             ],
             :last,
             :first
           %>
       </div>
+      <div class="under-radio">
+        <div>Strongly Disagree</div>
+        <div>Strongly Agree</div>
+      </div>
     </div>
   <% end %>
-  <%= f.submit "Submit Survey" %>
+  <div class="button-action">
+    <%= f.submit "Submit Survey" %>
+  </div>
 <% end %>

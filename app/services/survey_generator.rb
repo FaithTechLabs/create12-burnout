@@ -18,7 +18,8 @@ class SurveyGenerator
     # TODO: Will need to decide once we get 'finalized' questions which ones we want to be on the intake survey
     # For now, I'm just gonna grab all of them
     Question.each do |question|
-      Answer.create!(question_id: question.id, survey: survey)
+      # Answer.create!(question_id: question.id, survey: survey)
+      Answer.create!(question_id: question.id, survey: survey, question_text: question.text)
     end
   end
 end
